@@ -23,7 +23,7 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency 'beefcake', '~> 1.1'
   gem.add_runtime_dependency 'cert_validator', '~> 0.0.1'
-  gem.add_runtime_dependency 'i18n', '~> 0.6'
+  gem.add_runtime_dependency 'i18n', '>= 0.6', '< 2.0'
   gem.add_runtime_dependency 'innertube', '~> 1.0'
   gem.add_runtime_dependency 'multi_json', '~> 1.0'
 
